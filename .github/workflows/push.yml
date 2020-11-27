@@ -2,7 +2,7 @@ on: push
 name: deploy
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: hivi-fe # TODO: update to cluster name
+  GKE_CLUSTER: hivi # TODO: update to cluster name
   GKE_ZONE: us-central1-c # TODO: update to cluster zone
   DEPLOYMENT_NAME: angular # TODO: update to deployment name
   IMAGE: hivi-fe
